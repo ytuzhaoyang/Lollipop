@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Lollipop</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="image_1">image_1</string>
+    <string name="image_2">image_2</string>
+    <string name="image_3">image_3</string>
+    <string name="image_4">image_4</string>
+    <string name="image_5">image_5</string>
+    <string name="image_6">image_6</string>
+    <string-array name="image">
+        <item>@string/image_6</item>
+        <item>@string/image_5</item>
+        <item>@string/image_4</item>
+        <item>@string/image_3</item>
+        <item>@string/image_2</item>
+        <item>@string/image_1</item>
+    </string-array>
+    <string name="title_activity_element">ElementActivity</string>
+</resources>

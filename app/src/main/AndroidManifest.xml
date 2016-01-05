@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jash.lollipop" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CircularActivity"
+            android:label="波纹动画" >
+        </activity>
+        <activity
+            android:name=".CardViewActivity"
+            android:label="卡片视图" >
+        </activity>
+        <activity
+            android:name=".RecyclerActivity"
+            android:label="RecyclerView" >
+        </activity>
+        <activity
+            android:name=".PaletteActivity"
+            android:label="调色版" >
+        </activity>
+        <activity
+            android:name=".ShareElementActivity"
+            android:label="共享元素" >
+        </activity>
+        <activity
+            android:name=".ElementActivity"
+            android:label="@string/title_activity_element" >
+        </activity>
+
+    </application>
+
+</manifest>
